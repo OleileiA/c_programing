@@ -20,5 +20,7 @@ int main() {
      * 字符型
      * char 字符型 -128 ~ 127的表示范围，可以表示全部ASCII码表
      */
+
+    unsigned int ui = 10; // 无符号数
     return 0;
 }
