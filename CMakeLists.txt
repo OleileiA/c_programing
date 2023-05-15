@@ -3,6 +3,4 @@ project(c_programing C)
 
 set(CMAKE_C_STANDARD 99)
 
-add_executable(c_programing
-#        main.c
-        ./_3_数据类型/dataType.c)
+add_executable(c_programing ./_4_变量/var.c)
