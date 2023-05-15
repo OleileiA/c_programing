@@ -22,5 +22,6 @@ int main() {
      */
 
     unsigned int ui = 10; // 无符号数
+    printf("%u", ui);
     return 0;
 }
