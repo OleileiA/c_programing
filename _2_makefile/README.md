@@ -95,6 +95,10 @@ add_executable(untitled main.c test.c test.h)
 ```sh
  cmake -S . -B test -G "MinGW Makefiles"
 ```
+```sh
+mac: 
+cmake -S . -B test -G "Unix Makefiles"
+```
 
 其中`-S`后面的是源文件目录，这里`.`表示当前目录，`-B`后面是构建目录，一会构建的文件都在这里面存放，最后`-G`是选择生成器（生成器有很多，甚至可以直接生成一个VS项目，我们可以直接使用Visual Studio打开），这里我们需要生成Makefile，所以填写"MinGW Makefiles"：
 
