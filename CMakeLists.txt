@@ -3,4 +3,4 @@ project(c_programing C)
 
 set(CMAKE_C_STANDARD 99)
 
-add_executable(c_programing ./_4_变量/var.c)
+add_executable(c_programing ./_5_类型转换/typeTrans.c)
